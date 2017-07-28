@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define Paycoin-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "PaycoinURI"
+// Define Dumpstercoin-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "DumpstercoinURI"
 
 void ipcInit();
 void ipcShutdown();

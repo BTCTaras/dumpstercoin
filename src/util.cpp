@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The Dumpstercoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -797,13 +797,13 @@ boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
 
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Paycoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Paycoin
-    // Mac: ~/Library/Application Support/Paycoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Dumpstercoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Dumpstercoin
+    // Mac: ~/Library/Application Support/Dumpstercoin
     // Unix: ~/.paycoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Paycoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Dumpstercoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -815,7 +815,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Paycoin";
+    return pathRet / "Dumpstercoin";
 #else
     // Unix
     return pathRet / ".paycoin";
@@ -1029,10 +1029,10 @@ void AddTimeData(const CNetAddr& ip, int64 nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct.  If your clock is wrong Dumpstercoin will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    ThreadSafeMessageBox(strMessage+" ", string("Paycoin"), wxOK | wxICON_EXCLAMATION);
+                    ThreadSafeMessageBox(strMessage+" ", string("Dumpstercoin"), wxOK | wxICON_EXCLAMATION);
                 }
             }
         }
@@ -1076,7 +1076,7 @@ std::string FormatSubVersion(const std::string& name, int nClientVersion, const 
     ss << "/";
     ss << "Peercoin:" << FormatVersion(PPCOIN_VERSION);
     ss << "/";
-    ss << "Paycoin:" << FormatVersion(PEERUNITY_VERSION);
+    ss << "Dumpstercoin:" << FormatVersion(PEERUNITY_VERSION);
     ss << "(" << CLIENT_BUILD << ")/";
     return ss.str();
 }

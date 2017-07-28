@@ -10,13 +10,13 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Paycoin"
-            VALUE "FileDescription",    "Paycoin-Qt (OSS GUI client for Paycoin)"
+            VALUE "CompanyName",        "Dumpstercoin"
+            VALUE "FileDescription",    "Dumpstercoin-Qt (OSS GUI client for Dumpstercoin)"
             VALUE "InternalName",       "paycoin-qt"
-            VALUE "LegalCopyright",     "2014-2016 The Paycoin developers"
+            VALUE "LegalCopyright",     "2014-2016 The Dumpstercoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "paycoin-qt.exe"
-            VALUE "ProductName",        "Paycoin-Qt"
+            VALUE "ProductName",        "Dumpstercoin-Qt"
         END
     END
 

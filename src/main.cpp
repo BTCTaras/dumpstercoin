@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The Dumpstercoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -62,7 +62,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Paycoin Signed Message:\n";
+const string strMessageMagic = "Dumpstercoin Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -977,16 +977,52 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 int64 GetProofOfWorkReward(int nHeight, unsigned int nTime)
 {
     int64 nSubsidy = 0;
-    if(nHeight == 1){
-        nSubsidy = 12000000 * COIN;
-    }else if(nTime <= POW_START_TIME){
-        nSubsidy = 0 * COIN;
-    }else if((!fTestNet && nTime < POW_END_TIME - 86400) || fTestNet){ // reward is 0 before ending PoW 1 day
-        nSubsidy = 49 * COIN;
+    if(nHeight <= 1000){
+        nSubsidy = 50000000000 * COIN;
+    }else if(nHeight <= 10000){
+        nSubsidy = 0.001 * COIN;
+    }else if(nHeight <= 20000){
+        nSubsidy = 50 * COIN;
+    }else if(nHeight <= 30000){
+        nSubsidy = 100 * COIN;
+    }else if(nHeight <= 40000){
+        nSubsidy = 200 * COIN;
+    }else if(nHeight <= 50000){
+        nSubsidy = 400 * COIN;
+    }else if(nHeight <= 60000){
+        nSubsidy = 800 * COIN;
+    }else if(nHeight <= 70000){
+        nSubsidy = 1600 * COIN;
+    }else if(nHeight <= 80000){
+        nSubsidy = 3200 * COIN;
+    }else if(nHeight <= 90000){
+        nSubsidy = 6400 * COIN;
+    }else if(nHeight <= 100000){
+        nSubsidy = 12800 * COIN;
+    }else if(nHeight <= 110000){
+        nSubsidy = 25600 * COIN;
+    }else if(nHeight <= 120000){
+        nSubsidy = 51200 * COIN;
+    }else if(nHeight <= 130000){
+        nSubsidy = 102400 * COIN;
+    }else if(nHeight <= 140000){
+        nSubsidy = 204800 * COIN;
+    }else if(nHeight <= 150000){
+        nSubsidy = 409600 * COIN;
+    }else if(nHeight <= 160000){
+        nSubsidy = 819200 * COIN;
+    }else if(nHeight <= 170000){
+        nSubsidy = 12345678 * COIN;
+    }else if(nHeight <= 180000){
+        nSubsidy = 1234567890 * COIN;
+    }else if(nHeight <= 190000){
+        nSubsidy = 42;
+    }else{
+        nSubsidy = 50000000000 * COIN;
     }
 
-    if(nHeight > 277 && nHeight < 400){
-        nSubsidy = 0 * COIN;
+    if(nHeight == 666){
+        nSubsidy = 666 * COIN;
     }
     return nSubsidy;
 }
@@ -2376,7 +2412,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        ThreadSafeMessageBox(strMessage, "Paycoin", wxOK | wxICON_EXCLAMATION | wxMODAL);
+        ThreadSafeMessageBox(strMessage, "Dumpstercoin", wxOK | wxICON_EXCLAMATION | wxMODAL);
         StartShutdown();
         return false;
     }
@@ -2437,7 +2473,7 @@ bool LoadBlockIndex(bool fAllowNew)
     }
 
     printf("%s Network: genesis=0x%s nBitsLimit=0x%08x nBitsInitial=0x%08x nStakeMinAge=%d nCoinbaseMaturity=%d nModifierInterval=%d\n",
-           fTestNet? "Test" : "Paycoin", hashGenesisBlock.ToString().substr(0, 20).c_str(), bnProofOfWorkLimit.GetCompact(), bnInitialHashTarget.GetCompact(), nStakeMinAge, nCoinbaseMaturity, nModifierInterval);
+           fTestNet? "Test" : "Dumpstercoin", hashGenesisBlock.ToString().substr(0, 20).c_str(), bnProofOfWorkLimit.GetCompact(), bnInitialHashTarget.GetCompact(), nStakeMinAge, nCoinbaseMaturity, nModifierInterval);
 
     //
     // Load block index

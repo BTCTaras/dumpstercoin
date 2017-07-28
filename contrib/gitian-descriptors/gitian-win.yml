@@ -84,7 +84,7 @@ script: |
     cp $BINDIR/paycoin.exe release/
     cp $BINDIR/paycoind.exe release/
     makensis share/setup.nsi
-    cp share/Paycoin-*setup*.exe $BINDIR
+    cp share/Dumpstercoin-*setup*.exe $BINDIR
     unset LD_PRELOAD
     unset FAKETIME
   done # for BITS in

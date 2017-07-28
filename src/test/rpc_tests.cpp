@@ -142,7 +142,7 @@ BOOST_FIXTURE_TEST_CASE(rpc_scrapes, RPCServerFixture)
 
     BOOST_CHECK(readResponse(obj, error_code));
 
-    // error: {"code":-5,"message":"Invalid Paycoin address."}
+    // error: {"code":-5,"message":"Invalid Dumpstercoin address."}
     strMethod = "setscrapeaddress";
     strParams.clear();
     strParams.push_back("PBMJh8s5cFz");

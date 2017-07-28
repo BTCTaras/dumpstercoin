@@ -1,13 +1,13 @@
-Paycoin version 0.3.0.0 is now available from:
+Dumpstercoin version 0.3.0.0 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/DumpstercoinFoundation/paycoin/releases
 
 This is a mandatory update, including a modification to the primenode stake
 rate and many bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/DumpstercoinFoundation/paycoin/issues
 
 Upgrading and downgrading
 =========================
@@ -17,16 +17,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/Dumpstercoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+Dumpstercoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
 
 Linux : ~/.paycoin/
 
-Windows : %appdata%\Paycoin
+Windows : %appdata%\Dumpstercoin
 
-Mac : ~/Library/Application Support/Paycoin
+Mac : ~/Library/Application Support/Dumpstercoin
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
@@ -105,8 +105,8 @@ Validation / Staking:
 Miscellaneous:
 - `79d5644` Build tests:
 - `6e8db96` Fix util_tests.cpp
-- `bfe7f71` use Paycoin keys for tests
-- `971cc03` use Paycoin transaction for tests
+- `bfe7f71` use Dumpstercoin keys for tests
+- `971cc03` use Dumpstercoin transaction for tests
 - `fb9f6ab` use new version for tests
 - `e805876` Remove checknbits test
 - `3eb37a5` remove loop define

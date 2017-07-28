@@ -932,7 +932,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <source>Specify pid file (default: paycoind.pid)</source>
-        <translation>Especifica archivo pid (predeterminado: Paycoin.pid)
+        <translation>Especifica archivo pid (predeterminado: Dumpstercoin.pid)
 </translation>
     </message>
     <message>

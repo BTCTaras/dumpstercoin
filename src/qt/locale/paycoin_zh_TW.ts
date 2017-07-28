@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>關於Paycoin</translation>
+        <source>About Dumpstercoin</source>
+        <translation>關於Dumpstercoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>Paycoin版本</translation>
+        <source>&lt;b&gt;Dumpstercoin&lt;/b&gt; version</source>
+        <translation>Dumpstercoin版本</translation>
     </message>
     </context>
 <context>
@@ -236,8 +236,8 @@ Are you sure you wish to encrypt your wallet?</source>
         <translation>結束應用程式</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>顯示有關於 Paycoin 的資訊</translation>
+        <source>Show information about Dumpstercoin</source>
+        <translation>顯示有關於 Dumpstercoin 的資訊</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>

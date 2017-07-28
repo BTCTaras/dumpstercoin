@@ -109,7 +109,7 @@ ended up installing a version that worked with: /usr/bin/easy_install-2.7 appscr
 	T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
 	python2.7 contrib/macdeploy/macdeployqtplus Bitcoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
-Build output expected: Paycoin-Qt.dmg
+Build output expected: Dumpstercoin-Qt.dmg
 
 ### Next steps:
 

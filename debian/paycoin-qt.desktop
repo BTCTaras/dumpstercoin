@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Paycoin
-Comment=Paycoin P2P Cryptocurrency
-Comment[fr]=Paycoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Paycoin, eşten eşe kriptografik sanal para birimi
+Name=Dumpstercoin
+Comment=Dumpstercoin P2P Cryptocurrency
+Comment[fr]=Dumpstercoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dumpstercoin, eşten eşe kriptografik sanal para birimi
 Exec=/usr/bin/paycoin-qt %u
 Terminal=false
 Type=Application

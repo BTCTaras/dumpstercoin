@@ -1,7 +1,7 @@
 /*
  * W.J. van der Laan 2011-2012
  * The PPCoin Developers 2013
- * The Paycoin Developers 2014-2015
+ * The Dumpstercoin Developers 2014-2015
  */
 #include "bitcoingui.h"
 #include "clientmodel.h"
@@ -128,7 +128,7 @@ std::string _(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Paycoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Dumpstercoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -178,12 +178,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    app.setOrganizationName("Paycoin");
+    app.setOrganizationName("Dumpstercoin");
     app.setOrganizationDomain("paycoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        app.setApplicationName("Paycoin-Qt-testnet");
+        app.setApplicationName("Dumpstercoin-Qt-testnet");
     else
-        app.setApplicationName("Paycoin-Qt");
+        app.setApplicationName("Dumpstercoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;

@@ -1,7 +1,7 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
 // Copyright (c) 2011-2015 The Peercoin developers
-// Copyright (c) 2014-2015 The Paycoin developers
+// Copyright (c) 2014-2015 The Dumpstercoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -131,10 +131,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() != 0)
         throw runtime_error(
             "stop\n"
-            "Stop Paycoin server.");
+            "Stop Dumpstercoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Paycoin server stopping";
+    return "Dumpstercoin server stopping";
 }
 
 Value getgenerate(const Array& params, bool fHelp)
@@ -288,13 +288,13 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "Paycoin is not connected!");
+        throw JSONRPCError(-9, "Dumpstercoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "Paycoin is downloading blocks...");
+        throw JSONRPCError(-10, "Dumpstercoin is downloading blocks...");
 
     if (pindexBest != NULL && pindexBest->nTime > POW_END_TIME)
-        throw JSONRPCError(-10, "Paycoin is currently on pure PoS state");
+        throw JSONRPCError(-10, "Dumpstercoin is currently on pure PoS state");
 
 
     typedef map<uint256, pair<CBlock*, CScript> > mapNewBlock_t;
@@ -436,13 +436,13 @@ Value getblocktemplate(const Array& params, bool fHelp)
 
     {
         if (vNodes.empty())
-            throw JSONRPCError(-9, "Paycoin is not connected!");
+            throw JSONRPCError(-9, "Dumpstercoin is not connected!");
 
         if (IsInitialBlockDownload())
-            throw JSONRPCError(-10, "Paycoin is downloading blocks...");
+            throw JSONRPCError(-10, "Dumpstercoin is downloading blocks...");
 
         if (pindexBest != NULL && pindexBest->nTime > POW_END_TIME)
-            throw JSONRPCError(-10, "Paycoin is currently on pure PoS state");
+            throw JSONRPCError(-10, "Dumpstercoin is currently on pure PoS state");
 
         // Update block
         static unsigned int nTransactionsUpdatedLast;
@@ -573,7 +573,7 @@ Value submitblock(const Array& params, bool fHelp)
         throw JSONRPCError(-22, "Block decode failed");
     }
 
-    // Paycoin: sign block
+    // Dumpstercoin: sign block
     if (!block.SignBlock(*pwalletMain))
         throw JSONRPCError(-100, "Unable to sign block, wallet locked?");
 

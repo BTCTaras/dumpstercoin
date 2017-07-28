@@ -176,7 +176,7 @@
     </message>
     <message>
         <source>&amp;Receive coins</source>
-        <translation>&amp;amp; Ta emot Paycoins</translation>
+        <translation>&amp;amp; Ta emot Dumpstercoins</translation>
     </message>
     <message>
         <source>Show the list of addresses for receiving payments</source>
@@ -184,7 +184,7 @@
     </message>
     <message>
         <source>&amp;Send coins</source>
-        <translation>&amp;amp; Skicka Paycoins</translation>
+        <translation>&amp;amp; Skicka Dumpstercoins</translation>
     </message>
     <message>
         <source>E&amp;xit</source>

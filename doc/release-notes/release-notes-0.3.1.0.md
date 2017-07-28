@@ -1,13 +1,13 @@
-Paycoin version 0.3.1.0 is now available from:
+Dumpstercoin version 0.3.1.0 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/DumpstercoinFoundation/paycoin/releases
 
 This is a mandatory update, including a modification to the primenode stake
 rate and many bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/DumpstercoinFoundation/paycoin/issues
 
 Upgrading and downgrading
 =========================
@@ -17,16 +17,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/Dumpstercoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+Dumpstercoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
 
 Linux : ~/.paycoin/
 
-Windows : %appdata%\Paycoin
+Windows : %appdata%\Dumpstercoin
 
-Mac : ~/Library/Application Support/Paycoin
+Mac : ~/Library/Application Support/Dumpstercoin
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
@@ -87,7 +87,7 @@ GUI:
 - `b6ee63a` Prevent tooltip filter from ever causing infinite loops
 - `5c2a03a` Add code to open (display) debug.log on Windows with the associated a…
 - `b921889` Add icon for "About Qt" in menu
-- `6a3e798` Paycoin-Qt (Windows only): enable DEP for paycoin-qt.exe
+- `6a3e798` Dumpstercoin-Qt (Windows only): enable DEP for paycoin-qt.exe
 
 Build system:
 - `a723988` Silence useless warning in src/json/json_spirit_writer_template.h to …

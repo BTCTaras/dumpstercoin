@@ -1,4 +1,4 @@
-Name Paycoin
+Name Dumpstercoin
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,8 +6,8 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.3.3.1
-!define COMPANY "Paycoin project"
-!define URL https://github.com/PaycoinFoundation/paycoin/
+!define COMPANY "Dumpstercoin project"
+!define URL https://github.com/DumpstercoinFoundation/paycoin/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/paycoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER Paycoin
-!define MUI_FINISHPAGE_RUN $INSTDIR\Paycoin.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Dumpstercoin
+!define MUI_FINISHPAGE_RUN $INSTDIR\Dumpstercoin.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile Paycoin-${VERSION}-win-setup.exe
+OutFile Dumpstercoin-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\Paycoin
+InstallDir $PROGRAMFILES64\Dumpstercoin
 !else
-InstallDir $PROGRAMFILES\Paycoin
+InstallDir $PROGRAMFILES\Dumpstercoin
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.0
-VIAddVersionKey ProductName Paycoin
+VIAddVersionKey ProductName Dumpstercoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,7 +73,7 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/Paycoin.exe
+    File ../release/Dumpstercoin.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
@@ -108,7 +108,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "paycoin" "URL Protocol" ""
-    WriteRegStr HKCR "paycoin" "" "URL:Paycoin"
+    WriteRegStr HKCR "paycoin" "" "URL:Dumpstercoin"
     WriteRegStr HKCR "paycoin\DefaultIcon" "" $INSTDIR\paycoin.exe
     WriteRegStr HKCR "paycoin\shell\open\command" "" '"$INSTDIR\paycoin.exe" "%1"'
 SectionEnd
@@ -141,7 +141,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Paycoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Dumpstercoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

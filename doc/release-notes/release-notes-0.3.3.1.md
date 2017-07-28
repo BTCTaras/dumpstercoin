@@ -1,12 +1,12 @@
-Paycoin version 0.3.3.1 is now available from:
+Dumpstercoin version 0.3.3.1 is now available from:
 
-  https://github.com/PaycoinFoundation/paycoin/releases
+  https://github.com/DumpstercoinFoundation/paycoin/releases
 
 This is an optional update including URI support and multiple bug fixes.
 
 Please report bugs using the issue tracker at github:
 
-  https://github.com/PaycoinFoundation/paycoin/issues
+  https://github.com/DumpstercoinFoundation/paycoin/issues
 
 Upgrading and downgrading
 =========================
@@ -16,16 +16,16 @@ How to Upgrade
 
 If you are running an older version, shut it down. Wait until it has completely
 shut down (this could take a few minutes), then run the installer (on Windows)
-or just copy over /Applications/Paycoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
+or just copy over /Applications/Dumpstercoin-Qt (on Mac) or paycoind/paycoin-qt (on Linux).
 
 If you encounter any issues starting the new wallet it is recommended that you delete and resync the blockchain. To delete the blockchain look in the
-Paycoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
+Dumpstercoin data directory (listed below) and delete everything except the wallet.dat and paycoin.conf
 
 Linux : ~/.paycoin/
 
-Windows : %appdata%\Paycoin
+Windows : %appdata%\Dumpstercoin
 
-Mac : ~/Library/Application Support/Paycoin
+Mac : ~/Library/Application Support/Dumpstercoin
 
 It is highly recommended that if you do not have a backup of your wallet.dat
 to go ahead and make one before deleting the blockchain.
@@ -49,7 +49,7 @@ cause nodes to disconnect from the network.
 Notable changes
 ===============
 
-Added support for Paycoin URIs in QT wallet.
+Added support for Dumpstercoin URIs in QT wallet.
 Fixed crash on send/stake plus general code updates.
 
 0.3.3.1 Change log
@@ -59,14 +59,14 @@ Detailed release notes follow.
 
 GUI:
 - `2d6dfb9` merge toggleHidden() code into showNormalIfMinimized() to extend the …
-- `8a1a967` change initial Balance on overviewpage from "123.456 XPY" to "0 XPY" …
-- `722c5dc` Change strings to Paycoin (uppercase) and other miscellaneous fixes
-- `18993f7` Correct translatable string from Bitcoin to Paycoin
+- `8a1a967` change initial Balance on overviewpage from "123.456 DUMP" to "0 DUMP" …
+- `722c5dc` Change strings to Dumpstercoin (uppercase) and other miscellaneous fixes
+- `18993f7` Correct translatable string from Bitcoin to Dumpstercoin
 - `a0cb315` Remove duplicate spaces from a string
 - `648fc59` Add an option to open the paycoin.conf in the default editor
 - `80dbe2e` Add a notice when selecting edit config in QT
 - `02d42ae` Fix Opening on OSX
-- `4898c94` Paycoin-Qt (Windows only): extend Resource File
+- `4898c94` Dumpstercoin-Qt (Windows only): extend Resource File
 - `0b67ded` Add missing Q_OBJECT in bitcoin.cpp
 - `45717b7` Qt: add copyrightLabel to aboutdialog.ui
 - `e13d341` Translation strings update
@@ -79,7 +79,7 @@ GUI:
 - `295751b` Correct a string accidentally referencing Bitcoin
 - `4f29cec` Translation updates / string updates
 - `2bfee2a` Fix some translation plurals
-- `0142107` Change Window title to "Paycoin - Wallet" / misc related renames
+- `0142107` Change Window title to "Dumpstercoin - Wallet" / misc related renames
 - `f51e337` Make sort and filters for transactions and labels case-insensitive
 - `0efc89b` Qt: Periodic translation update
 - `abaa02c` Revert "Remove spent transactions from the minting table model."

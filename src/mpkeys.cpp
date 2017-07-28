@@ -2788,7 +2788,7 @@ void CPrimeNodeDB::WriteMicroPrimeDB() {
     WriteMicroPrimeAddr(std::string("PHtXZfvmrvycdFQkR4aUzQXZWD8rXdJfHU"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PRJg5xKHngyPx6YBm9SscasH7TxQBQsMc6"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PQVXwmGhzdEdPPwMwWG1gguGWCAKq2nNMJ"), (int64)1000);
-    WriteMicroPrimeAddr(std::string("PANYyvy7BAfk7XyyHbi6XPYB8EWYXFcd2S"), (int64)1000);
+    WriteMicroPrimeAddr(std::string("PANYyvy7BAfk7XyyHbi6DUMPB8EWYXFcd2S"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PLUYrmLjqvrFCxwBmSQqXWYHVj2QZ6nsie"), (int64)1000);
     WriteMicroPrimeAddr(std::string("PVJRCHnny2JgLttXLFgWwXHZr1kErjkzws"), (int64)16000);
     WriteMicroPrimeAddr(std::string("PCEe3cNEg64V3mQwEyndMH2EC5CWi8rbug"), (int64)1000);

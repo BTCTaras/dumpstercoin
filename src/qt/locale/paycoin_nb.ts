@@ -3,12 +3,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Paycoin</source>
-        <translation>Om Paycoin</translation>
+        <source>About Dumpstercoin</source>
+        <translation>Om Dumpstercoin</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Paycoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Paycoin&lt;/b&gt; versjon</translation>
+        <source>&lt;b&gt;Dumpstercoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Dumpstercoin&lt;/b&gt; versjon</translation>
     </message>
     </context>
 <context>
@@ -18,8 +18,8 @@
         <translation>Adressebok</translation>
     </message>
     <message>
-        <source>These are your Paycoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine Paycoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
+        <source>These are your Dumpstercoin addresses for receiving payments.  You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine Dumpstercoin-adresser for å motta betalinger. Du kan gi en adresse til hver enkelt som skal betale deg, slik at du kan holde orden på hvem som har betalt.</translation>
     </message>
     <message>
         <source>Double-click to edit address or label</source>
@@ -186,8 +186,8 @@ Are you sure you wish to encrypt your wallet?</source>
 Er du sikker på at du vil kryptere lommeboken din?</translation>
     </message>
     <message>
-        <source>Paycoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Paycoins from being stolen by malware infecting your computer.</source>
-        <translation>Paycoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine paycoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
+        <source>Dumpstercoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Dumpstercoins from being stolen by malware infecting your computer.</source>
+        <translation>Dumpstercoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine paycoins fra å bli stjålet av skadevare som infiserer datamaskinen din.</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
@@ -273,8 +273,8 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>Avslutt applikasjonen</translation>
     </message>
     <message>
-        <source>Show information about Paycoin</source>
-        <translation>Vis informasjon om Paycoin</translation>
+        <source>Show information about Dumpstercoin</source>
+        <translation>Vis informasjon om Dumpstercoin</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -357,32 +357,32 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>Denne transaksjonen er over størrelsesgrensen. Du kan sende den med et gebyr på %1. Vil du betale gebyret?</translation>
     </message>
     <message>
-        <source>Paycoin Wallet</source>
-        <translation>Paycoin Lommebok</translation>
+        <source>Dumpstercoin Wallet</source>
+        <translation>Dumpstercoin Lommebok</translation>
     </message>
     <message>
-        <source>Send coins to a Paycoin address</source>
-        <translation>Send mynter til en Paycoin-adresse</translation>
+        <source>Send coins to a Dumpstercoin address</source>
+        <translation>Send mynter til en Dumpstercoin-adresse</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;melding...</translation>
     </message>
     <message>
-        <source>&amp;About Paycoin</source>
-        <translation>&amp;Om Paycoin</translation>
+        <source>&amp;About Dumpstercoin</source>
+        <translation>&amp;Om Dumpstercoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Paycoin</source>
-        <translation>Endre oppsett for Paycoin</translation>
+        <source>Modify configuration options for Dumpstercoin</source>
+        <translation>Endre oppsett for Dumpstercoin</translation>
     </message>
     <message>
-        <source>Show/Hide &amp;Paycoin</source>
-        <translation>Vis/Skjul &amp;Paycoin</translation>
+        <source>Show/Hide &amp;Dumpstercoin</source>
+        <translation>Vis/Skjul &amp;Dumpstercoin</translation>
     </message>
     <message>
-        <source>Show or hide the Paycoin window</source>
-        <translation>Vis eller skjul Paycoin-vinduet</translation>
+        <source>Show or hide the Dumpstercoin window</source>
+        <translation>Vis eller skjul Dumpstercoin-vinduet</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -397,12 +397,12 @@ Er du sikker på at du vil kryptere lommeboken din?</translation>
         <translation>&amp;Endre Passord...</translation>
     </message>
     <message>
-        <source>Paycoin client</source>
-        <translation>Paycoin klient</translation>
+        <source>Dumpstercoin client</source>
+        <translation>Dumpstercoin klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Paycoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Paycoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Paycoin-nettverket</numerusform></translation>
+        <source>%n active connection(s) to Dumpstercoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Dumpstercoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Dumpstercoin-nettverket</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -497,8 +497,8 @@ Adresse: %4
         <translation>Det oppsto en feil under lagring av lommebokdata til den nye lokasjonen.</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Paycoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Paycoin må derfor avslutte.</translation>
+        <source>A fatal error occurred. Dumpstercoin can no longer continue safely and will quit.</source>
+        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Dumpstercoin må derfor avslutte.</translation>
     </message>
     </context>
 <context>
@@ -703,8 +703,8 @@ Adresse: %4
         <translation>&amp;Vis adresser i transaksjonslisten</translation>
     </message>
     <message>
-        <source>Whether to show Paycoin addresses in the transaction list</source>
-        <translation>Om Paycoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <source>Whether to show Dumpstercoin addresses in the transaction list</source>
+        <translation>Om Dumpstercoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
     </message>
     <message>
         <source>Display coin control features (experts only!)</source>
@@ -762,8 +762,8 @@ Adresse: %4
         <translation>Den oppgitte adressen "%1" er allerede i adresseboken.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Paycoin address.</source>
-        <translation>Den oppgitte adressen "%1" er ikke en gyldig Paycoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Dumpstercoin address.</source>
+        <translation>Den oppgitte adressen "%1" er ikke en gyldig Dumpstercoin-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -920,8 +920,8 @@ Adresse: %4
         <translation>123.456</translation>
     </message>
     <message>
-        <source>XPY</source>
-        <translation>XPY</translation>
+        <source>DUMP</source>
+        <translation>DUMP</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -1035,8 +1035,8 @@ Adresse: %4
         <translation>Beløp:</translation>
     </message>
     <message>
-        <source>XPY</source>
-        <translation>XPY</translation>
+        <source>DUMP</source>
+        <translation>DUMP</translation>
     </message>
     <message>
         <source>Label:</source>
@@ -1130,8 +1130,8 @@ Adresse: %4
         <translation>Tøm konsoll</translation>
     </message>
     <message>
-        <source>Welcome to the Paycoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Velkommen til Paycoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <source>Welcome to the Dumpstercoin RPC console.&lt;br&gt;Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.&lt;br&gt;Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Velkommen til Dumpstercoin sin RPC-konsoll.&lt;br&gt;Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.&lt;br&gt;Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
     </message>
     </context>
 <context>
@@ -1289,8 +1289,8 @@ Adresse: %4
         <translation>Beløpet som må betales må være minimum en hundredel (0.01).</translation>
     </message>
     <message>
-        <source>Warning: Invalid Paycoin address</source>
-        <translation>Advarsel: Ugyldig Paycoin-adresse</translation>
+        <source>Warning: Invalid Dumpstercoin address</source>
+        <translation>Advarsel: Ugyldig Dumpstercoin-adresse</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -1301,8 +1301,8 @@ Adresse: %4
         <translation>(ingen merkelapp)</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a Dumpstercoin address</source>
+        <translation>Angi en Dumpstercoin-adresse</translation>
     </message>
     </context>
 <context>
@@ -1332,8 +1332,8 @@ Adresse: %4
         <translation>Adressen å sende betalingen til</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skriv inn en Paycoin-addresse (f.eks. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <source>Enter a Dumpstercoin address (e.g. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Skriv inn en Dumpstercoin-addresse (f.eks. PNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Choose address from address book</source>
@@ -1403,8 +1403,8 @@ Adresse: %4
         <translation>Kopier den nåværende signaturen til systemets utklippstavle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Paycoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Paycoin-adressen</translation>
+        <source>Sign the message to prove you own this Dumpstercoin address</source>
+        <translation>Signer meldingen for å bevise at du eier denne Dumpstercoin-adressen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1431,8 +1431,8 @@ Adresse: %4
         <translation>Adressen meldingen var signert med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Paycoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Paycoin-adressen</translation>
+        <source>Verify the message to ensure it was signed with the specified Dumpstercoin address</source>
+        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Dumpstercoin-adressen</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1451,8 +1451,8 @@ Adresse: %4
         <translation>Angi signaturen til meldingen</translation>
     </message>
     <message>
-        <source>Enter a Paycoin address</source>
-        <translation>Angi en Paycoin-adresse</translation>
+        <source>Enter a Dumpstercoin address</source>
+        <translation>Angi en Dumpstercoin-adresse</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
@@ -1506,8 +1506,8 @@ Adresse: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>The Paycoin developers</source>
-        <translation>Paycoin utviklerne</translation>
+        <source>The Dumpstercoin developers</source>
+        <translation>Dumpstercoin utviklerne</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1887,8 +1887,8 @@ Adresse: %4
         <translation>Bruk:</translation>
     </message>
     <message>
-        <source>Paycoin version</source>
-        <translation>Paycoin versjon</translation>
+        <source>Dumpstercoin version</source>
+        <translation>Dumpstercoin versjon</translation>
     </message>
     <message>
         <source>List commands</source>
@@ -2059,24 +2059,24 @@ Adresse: %4
         <translation>Akseptable krypteringsmetoder (standardverdi: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s.  Paycoin is probably already running.</source>
-        <translation>Ute av stand til å låse datamappen %s. Paycoin kjører sannsynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  Dumpstercoin is probably already running.</source>
+        <translation>Ute av stand til å låse datamappen %s. Dumpstercoin kjører sannsynligvis allerede.</translation>
     </message>
     <message>
-        <source>Paycoin</source>
-        <translation>Paycoin</translation>
+        <source>Dumpstercoin</source>
+        <translation>Dumpstercoin</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Paycoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Paycoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dumpstercoin</source>
+        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Dumpstercoin</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Paycoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Paycoin på nytt for å fullføre</translation>
+        <source>Wallet needed to be rewritten: restart Dumpstercoin to complete</source>
+        <translation>Lommeboken måtte skrives om: start Dumpstercoin på nytt for å fullføre</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Paycoin will not work properly.</source>
-        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Paycoin fungere skikkelig.</translation>
+        <source>Warning: Please check that your computer's date and time are correct.  If your clock is wrong Dumpstercoin will not work properly.</source>
+        <translation>Advarsel: Vennligst sjekk at datamaskinens dato og tid er korrekt. Hvis klokken din er feil vil ikke Dumpstercoin fungere skikkelig.</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
